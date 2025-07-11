@@ -110,6 +110,9 @@ ul li a{
  }
 
 /* feedback section */
+.feedback-container{
+    width: 1140px;
+}
 
  /* focus section */
  .focus{
