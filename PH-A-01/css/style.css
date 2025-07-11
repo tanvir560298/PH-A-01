@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* code for the fonts start */
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+ 
+.raleway-font {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* code for the fonts end */
+
+/* header code */
+.header{
+    background-image: url('../B12A01-landing-launchpad/Assets/Hero-bg.png');
+    /* max-width: 1440px;
+    max-height: 698px; */
+}
+/* banner nav  */
+
+.banner-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+
+/* nav logo */
+#logo{
+    font-size: 34px;
+    font-weight: 900;
+    color: #4E47FF;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+}
+
+ /* button style */
+ .btn-primary{
+    color: #FFFFFF;
+    background-color: #4E47FF ;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 12px 36px;
+    border: none;
+    border-radius: 10px;
+ }
+ /* content-header */
+ #content-header{
+    color: #252432;
+    font-weight: bold;
+    font-size: 65px;
+    text-align: center;
+    max-width: 905px;
+ }
+ .header-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
+ /* action */
+ .action{
+    display: flex;
+    justify-content: space-between;
+ }
+ .action-image img{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+ }
+ main{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #d6dded90;
+ }
+ .review{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(78, 71, 255,0.1);
+    border-radius: 24px;
+    
+    padding: 50px 142px;
+
+ }
+ .review-container{
+    display: flex;
+    justify-content: space-around;
+
+ }
+ .number{
+        color: #4E47FF;
+ }
+ .review-descrip {
+    color: #0000006c;
+ }
+ footer{
+    max-width: 1440px;
+ }
+
+/* feedback section */
+
+ /* focus section */
+ .focus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .focus-container{
+    max-width: 1140px;
+    text-align: center;
+    background-color: #FFFFFF;
+ }
+.focus-heading{
+    font-size: 50px;
+    margin-top: 71px;
+    font-weight: bold;
+}
+.focus-paragraph{
+    color: #0000008f;
+}
+ .focus-margin{
+  margin-bottom: 20px;  
+ }
+ .focus-image{
+    width: 840px;
+    border: none;
+    border-radius: 48px;
+    margin: 0 150px 71px 150px ;
+ }
+ 
+ /* form part */
+ .form{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+    max-width: 1140px;
+ }
+ #form-heading{
+    font-size: 97px;
+    font-weight: bold;
+    margin-top: 150px;
+    margin-bottom: 150px;
+ }
+ .from-part{
+    margin-top: 71px;
+    margin-bottom: 71px;
+ }
+ label{
+    display: block;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 10px 0;
+ }
+ input{
+    width: 497px;
+    height: 32px;
+    border-radius: 10px;
+    border: none;
+    padding: 5px 10px;
+ }
+ textarea{
+     width: 497px;
+    height: 167px;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px ;
+    margin-bottom: 10px;
+ }
+ input::placeholder {
+    font-size: 20px; 
+}
+textarea::placeholder{
+    font-size: 20px;
+}
+ .form-btn{
+    width: 515px;
+    margin-bottom: 71px;
+ }
+
+
+ /* footer part */
+ .footer{
+    max-width: 531px;
+    margin: 0 auto;
+    margin-top: 103px;
+    margin-bottom: 103px;
+
+
+ }
+ .foot-logo{
+    font-size: 100px;
+    font-weight: 900;
+    color: #4E47FF;
+    text-align: center;
+    margin-bottom: 8px;
+ }
+ .foot-paragraph{
+    color: #8987A1;
+
+ }
+ .footer-link{
+    display: flex;
+    justify-content: space-around;
+ }
+ .paragraph-description{
+    text-align: center;
+    margin-bottom: 20px;
+ }
